@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(50deg, purple, rgb(24, 238, 184));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.translate{
+    background-color: white;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: rgb(29, 100, 64);
+    display: block;
+    border-right: solid 2px rgba(255, 255, 255, 0.904);
+    animation: translate .6s ease-in;
+}
+
+.mudança{
+    left: 6px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: solid 2px rgba(255, 255, 255, 0.904);
+    border-right: 0px;
+    animation: mudança .6s ease-in;
+    padding: 0 23px;
+}
+
+.login-box{
+    right: 395px;    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.content_translate{
+    margin: 111px 20px;
+}
+
+.text_cad{
+    padding: 9px 0;
+    color: white;
+}
+
+.btn_cadastrar_translate{
+    border: none;
+    background-color: white;
+    padding: 22px 60px;
+    border-radius: 5px;
+    color: grey;
+    cursor: pointer;
+    outline: none;
+    box-shadow: -11px 7px 0 0 rgba(0, 0, 0, 0.562);
+    font-weight: bold;
+    font-size: large;
+}
+
+.btn_cadastrar_translate:hover{
+    animation: alternar_cor .3s ease-in-out;
+    color: white;
+    background-color: rgba(128, 0, 128, 0.932);
+    box-shadow: -11px 7px 0 0 rgba(114, 0, 128, 0.726);
+}
+
+.flex-box {
+    display: flex;
+    border: solid 2px rgba(255, 255, 255, 0.904);
+
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.container-box {
+    padding: 0 6px 0 0;
+}
+
+.content-box {
+    position: relative;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px 10px;
+    background-color: transparent;
+    text-align: center;
+}
+.content-box.cadastro{
+    display: none;
+}
+
+.título{
+    color: white;
+}
+
+.answer{
+    padding: 22px 57px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    outline: none;
+}
+
+.fas{
+    position: relative;
+    left: 10%;
+    cursor: pointer;
+}
+
+.submit-line{
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.botão-enviar{
+    border: none;
+    background-color: #121a54;
+    padding: 25px 100px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-size: large;
+}
+
+p{
+    padding: 5px;
+    text-align: center;
+}
+
+#link, #forgot-password, p{
+    color: white;
+    font: bold;
+}
+
+#link:hover{
+    color: lightseagreen;
+}
+
+.botão-enviar:hover{
+    font-size: larger;
+}
+
+.clean-answer{
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: large;
+    outline: none;
+}
+
+.clean-answer:hover{
+    color: lightseagreen;
+    cursor: pointer;
+}
